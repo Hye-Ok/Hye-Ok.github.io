@@ -14,18 +14,19 @@
     --card:#ffffff;
   }
 
-  body{
-    margin:0;
-    font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto;
-    color:var(--text);
+body{
+  margin:0;
+  font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto;
+  color:#0f172a;
 
-    /* 밝은 배경 */
-    background: linear-gradient(
-      180deg,
-      #f8fafc 0%,
-      #eef2f7 100%
-    );
-  }
+  /* ✅ 바깥 배경: 사진 + 밝은 오버레이 */
+  background:
+    linear-gradient(rgba(248,250,252,0.88), rgba(248,250,252,0.88)),
+    url("images/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* 스크롤해도 배경 고정(원치 않으면 지워도 됨) */
+}
 
   a{
     color:var(--accent);
