@@ -1,127 +1,111 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!doctype html>
+<html lang="ko">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2575.3">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hyeok Yoon | Research & Engineering</title>
+  <meta name="description" content="Personal PR website for research and engineering." />
+  <style>
+    :root{
+      --bg:#0b0f14; --card:#121826; --text:#e8eef6; --muted:#a9b4c3;
+      --accent:#7dd3fc; --line:#243044;
+    }
+    body{
+      margin:0;
+      font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto;
+      background:linear-gradient(180deg,#070a0f, var(--bg));
+      color:var(--text);
+    }
+    a{color:var(--accent); text-decoration:none}
+    a:hover{text-decoration:underline}
+    .wrap{max-width:980px;margin:0 auto;padding:42px 18px 80px}
+    header{display:flex;gap:18px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+    .name{font-size:34px;font-weight:800;letter-spacing:-0.5px}
+    .tag{color:var(--muted);margin-top:6px}
+    .btns{display:flex;gap:10px;flex-wrap:wrap}
+    .btn{border:1px solid var(--line);padding:10px 12px;border-radius:12px;background:rgba(18,24,38,.6)}
+    .grid{display:grid;grid-template-columns:1.1fr .9fr;gap:16px;margin-top:18px}
+    @media (max-width:860px){.grid{grid-template-columns:1fr}}
+    section{background:rgba(18,24,38,.72);border:1px solid var(--line);border-radius:18px;padding:18px}
+    h2{margin:0 0 10px;font-size:16px;text-transform:uppercase;letter-spacing:.12em;color:var(--muted)}
+    .lead{font-size:15px;line-height:1.6;color:#dbe6f3}
+    ul{margin:10px 0 0 18px;color:#dbe6f3}
+    li{margin:8px 0;line-height:1.5}
+    .item{padding:12px;border:1px solid var(--line);border-radius:14px;background:rgba(11,15,20,.55);margin-top:10px}
+    .item b{display:block;margin-bottom:6px}
+    footer{margin-top:22px;color:var(--muted);font-size:13px}
+    .pill{display:inline-block;padding:6px 10px;border-radius:999px;border:1px solid var(--line);margin:6px 6px 0 0;color:#dbe6f3}
   </style>
 </head>
+
 <body>
-<p class="p1">&lt;!doctype html&gt;</p>
-<p class="p1">&lt;html lang="ko"&gt;</p>
-<p class="p1">&lt;head&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;meta charset="utf-8" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;title&gt;Hyeok Yoon | Research &amp; Engineering&lt;/title&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;meta name="description" content="Personal PR website for research and engineering." /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;style&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>:root{</p>
-<p class="p1"><span class="Apple-converted-space">      </span>--bg:#0b0f14; --card:#121826; --text:#e8eef6; --muted:#a9b4c3;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>--accent:#7dd3fc; --line:#243044;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>body{</p>
-<p class="p1"><span class="Apple-converted-space">      </span>margin:0;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>background:linear-gradient(180deg,#070a0f, var(--bg));</p>
-<p class="p1"><span class="Apple-converted-space">      </span>color:var(--text);</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>a{color:var(--accent); text-decoration:none}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>a:hover{text-decoration:underline}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>.wrap{max-width:980px;margin:0 auto;padding:42px 18px 80px}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>header{display:flex;gap:18px;align-items:center;justify-content:space-between;flex-wrap:wrap}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>.name{font-size:34px;font-weight:800;letter-spacing:-0.5px}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>.tag{color:var(--muted);margin-top:6px}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>.btns{display:flex;gap:10px;flex-wrap:wrap}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>.btn{border:1px solid var(--line);padding:10px 12px;border-radius:12px;background:rgba(18,24,38,.6)}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>.grid{display:grid;grid-template-columns:1.1fr .9fr;gap:16px;margin-top:18px}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>@media (max-width:860px){.grid{grid-template-columns:1fr}}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>section{background:rgba(18,24,38,.72);border:1px solid var(--line);border-radius:18px;padding:18px}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>h2{margin:0 0 10px;font-size:16px;text-transform:uppercase;letter-spacing:.12em;color:var(--muted)}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>.lead{font-size:15px;line-height:1.6;color:#dbe6f3}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>ul{margin:10px 0 0 18px;color:#dbe6f3}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>li{margin:8px 0;line-height:1.5}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>.item{padding:12px;border:1px solid var(--line);border-radius:14px;background:rgba(11,15,20,.55);margin-top:10px}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>.item b{display:block;margin-bottom:6px}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>footer{margin-top:22px;color:var(--muted);font-size:13px}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>.pill{display:inline-block;padding:6px 10px;border-radius:999px;border:1px solid var(--line);margin:6px 6px 0 0;color:#dbe6f3}</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/style&gt;</p>
-<p class="p1">&lt;/head&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;body&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="wrap"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;header&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="name"&gt;Hyeok Yoon&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="tag"&gt;Experimental condensed-matter → AI for smart manufacturing&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="btns"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;a class="btn" href="mailto:YOUR_EMAIL@domain.com"&gt;Email&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;a class="btn" href="https://www.linkedin.com/in/YOUR_ID" target="_blank"&gt;LinkedIn&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;a class="btn" href="https://scholar.google.com/citations?user=YOUR_ID" target="_blank"&gt;Google Scholar&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;a class="btn" href="CV.pdf" target="_blank"&gt;CV (PDF)&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/header&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="grid"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;section&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;h2&gt;About&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;p class="lead"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>I am a researcher with a background in experimental condensed-matter physics,</p>
-<p class="p1"><span class="Apple-converted-space">          </span>transitioning toward AI-driven approaches for smart manufacturing and data-centric</p>
-<p class="p1"><span class="Apple-converted-space">          </span>engineering problems.</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/p&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;h2 style="margin-top:16px;"&gt;Highlights&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="pill"&gt;Superconductivity (SrTiO₃, UTe₂)&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="pill"&gt;Thin flakes &amp; devices&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="pill"&gt;XRD / RSM / AFM&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="pill"&gt;Python / Data analysis&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;h2 style="margin-top:16px;"&gt;Selected Projects&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="item"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>&lt;b&gt;UTe₂ sub-micron flakes&lt;/b&gt;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="tag"&gt;Exfoliation, device fabrication, and low-temperature transport.&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="item"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>&lt;b&gt;Josephson junction Fraunhofer modeling&lt;/b&gt;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="tag"&gt;Python-based simulation and inverse fitting.&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/section&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;section&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;h2&gt;Experience&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;ul&gt;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>&lt;li&gt;&lt;b&gt;Postdoctoral Researcher&lt;/b&gt; — KAIST &lt;span class="tag"&gt;2025–&lt;/span&gt;&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>&lt;li&gt;&lt;b&gt;Postdoctoral Researcher&lt;/b&gt; — University of Maryland &lt;span class="tag"&gt;2020–2025&lt;/span&gt;&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>&lt;li&gt;&lt;b&gt;PhD&lt;/b&gt; — (Your University)&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/ul&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;h2 style="margin-top:16px;"&gt;Publications&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="item"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>&lt;b&gt;Representative paper title&lt;/b&gt;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="tag"&gt;Journal, year.&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;h2 style="margin-top:16px;"&gt;Contact&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="tag"&gt;Email: YOUR_EMAIL@domain.com&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="tag"&gt;Location: Korea&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/section&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;footer&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>© &lt;span id="y"&gt;&lt;/span&gt; Hyeok Yoon · Hosted on GitHub Pages</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/footer&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;script&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>document.getElementById("y").textContent = new Date().getFullYear();</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/script&gt;</p>
-<p class="p1">&lt;/body&gt;</p>
-<p class="p1">&lt;/html&gt;</p>
+  <div class="wrap">
+    <header>
+      <div>
+        <div class="name">Hyeok Yoon</div>
+        <div class="tag">Experimental condensed-matter → AI for smart manufacturing</div>
+      </div>
+      <div class="btns">
+        <a class="btn" href="mailto:YOUR_EMAIL@domain.com">Email</a>
+        <a class="btn" href="https://www.linkedin.com/in/YOUR_ID" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a class="btn" href="https://scholar.google.com/citations?user=YOUR_ID" target="_blank" rel="noreferrer">Google Scholar</a>
+        <a class="btn" href="CV.pdf" target="_blank" rel="noreferrer">CV (PDF)</a>
+      </div>
+    </header>
+
+    <div class="grid">
+      <section>
+        <h2>About</h2>
+        <p class="lead">
+          I am a researcher with a background in experimental condensed-matter physics,
+          transitioning toward AI-driven approaches for smart manufacturing and data-centric
+          engineering problems.
+        </p>
+
+        <h2 style="margin-top:16px;">Highlights</h2>
+        <div class="pill">Superconductivity (SrTiO₃, UTe₂)</div>
+        <div class="pill">Thin flakes & devices</div>
+        <div class="pill">XRD / RSM / AFM</div>
+        <div class="pill">Python / Data analysis</div>
+
+        <h2 style="margin-top:16px;">Selected Projects</h2>
+        <div class="item">
+          <b>UTe₂ sub-micron flakes</b>
+          <div class="tag">Exfoliation, device fabrication, and low-temperature transport.</div>
+        </div>
+        <div class="item">
+          <b>Josephson junction Fraunhofer modeling</b>
+          <div class="tag">Python-based simulation and inverse fitting.</div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Experience</h2>
+        <ul>
+          <li><b>Postdoctoral Researcher</b> — KAIST <span class="tag">2025–</span></li>
+          <li><b>Postdoctoral Researcher</b> — University of Maryland <span class="tag">2020–2025</span></li>
+          <li><b>PhD</b> — (Your University)</li>
+        </ul>
+
+        <h2 style="margin-top:16px;">Publications</h2>
+        <div class="item">
+          <b>Representative paper title</b>
+          <div class="tag">Journal, year.</div>
+        </div>
+
+        <h2 style="margin-top:16px;">Contact</h2>
+        <div class="tag">Email: YOUR_EMAIL@domain.com</div>
+        <div class="tag">Location: Korea</div>
+      </section>
+    </div>
+
+    <footer>
+      © <span id="y"></span> Hyeok Yoon · Hosted on GitHub Pages
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
