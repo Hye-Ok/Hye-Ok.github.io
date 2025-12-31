@@ -5,44 +5,145 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Hyeok Yoon | Research & Engineering</title>
   <meta name="description" content="Personal PR website for research and engineering." />
-  <style>
-    :root{
-      --bg:#0b0f14; --card:#121826; --text:#e8eef6; --muted:#a9b4c3;
-      --accent:#7dd3fc; --line:#243044;
-    }
-    body{
-  margin:0;
-  font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto;
-  color:#0f172a;
+<style>
+  :root{
+    --text:#0f172a;
+    --muted:#475569;
+    --accent:#2563eb;
+    --line:#e5e7eb;
+    --card:#ffffff;
+  }
 
-  /* 밝은 배경 */
-  background: linear-gradient(
-    180deg,
-    #f8fafc 0%,
-    #eef2f7 100%
-  );
-}
-    
-    a{color:var(--accent); text-decoration:none}
-    a:hover{text-decoration:underline}
-    .wrap{max-width:980px;margin:0 auto;padding:42px 18px 80px}
-    header{display:flex;gap:18px;align-items:center;justify-content:space-between;flex-wrap:wrap}
-    .name{font-size:34px;font-weight:800;letter-spacing:-0.5px}
-    .tag{color:var(--muted);margin-top:6px}
-    .btns{display:flex;gap:10px;flex-wrap:wrap}
-    .btn{border:1px solid var(--line);padding:10px 12px;border-radius:12px;background:rgba(18,24,38,.6)}
-    .grid{display:grid;grid-template-columns:1.1fr .9fr;gap:16px;margin-top:18px}
-    @media (max-width:860px){.grid{grid-template-columns:1fr}}
-    section{background:rgba(18,24,38,.72);border:1px solid var(--line);border-radius:18px;padding:18px}
-    h2{margin:0 0 10px;font-size:16px;text-transform:uppercase;letter-spacing:.12em;color:var(--muted)}
-    .lead{font-size:15px;line-height:1.6;color:#dbe6f3}
-    ul{margin:10px 0 0 18px;color:#dbe6f3}
-    li{margin:8px 0;line-height:1.5}
-    .item{padding:12px;border:1px solid var(--line);border-radius:14px;background:rgba(11,15,20,.55);margin-top:10px}
-    .item b{display:block;margin-bottom:6px}
-    footer{margin-top:22px;color:var(--muted);font-size:13px}
-    .pill{display:inline-block;padding:6px 10px;border-radius:999px;border:1px solid var(--line);margin:6px 6px 0 0;color:#dbe6f3}
-  </style>
+  body{
+    margin:0;
+    font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto;
+    color:var(--text);
+
+    /* 밝은 배경 */
+    background: linear-gradient(
+      180deg,
+      #f8fafc 0%,
+      #eef2f7 100%
+    );
+  }
+
+  a{
+    color:var(--accent);
+    text-decoration:none
+  }
+  a:hover{
+    text-decoration:underline
+  }
+
+  .wrap{
+    max-width:980px;
+    margin:0 auto;
+    padding:42px 18px 80px
+  }
+
+  header{
+    display:flex;
+    gap:18px;
+    align-items:center;
+    justify-content:space-between;
+    flex-wrap:wrap
+  }
+
+  .name{
+    font-size:34px;
+    font-weight:800;
+    letter-spacing:-0.5px
+  }
+
+  .tag{
+    color:var(--muted);
+    margin-top:6px
+  }
+
+  .btns{
+    display:flex;
+    gap:10px;
+    flex-wrap:wrap
+  }
+
+  .btn{
+    border:1px solid var(--line);
+    padding:10px 12px;
+    border-radius:12px;
+    background:#ffffff;
+  }
+
+  .grid{
+    display:grid;
+    grid-template-columns:1.1fr .9fr;
+    gap:16px;
+    margin-top:18px
+  }
+
+  @media (max-width:860px){
+    .grid{grid-template-columns:1fr}
+  }
+
+  section{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:18px;
+    padding:18px
+  }
+
+  h2{
+    margin:0 0 10px;
+    font-size:16px;
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    color:var(--muted)
+  }
+
+  .lead{
+    font-size:15px;
+    line-height:1.6;
+    color:#1f2937
+  }
+
+  ul{
+    margin:10px 0 0 18px;
+    color:#1f2937
+  }
+
+  li{
+    margin:8px 0;
+    line-height:1.5
+  }
+
+  .item{
+    padding:12px;
+    border:1px solid var(--line);
+    border-radius:14px;
+    background:#f8fafc;
+    margin-top:10px
+  }
+
+  .item b{
+    display:block;
+    margin-bottom:6px
+  }
+
+  .pill{
+    display:inline-block;
+    padding:6px 10px;
+    border-radius:999px;
+    border:1px solid var(--line);
+    margin:6px 6px 0 0;
+    color:#1f2937;
+    background:#ffffff
+  }
+
+  footer{
+    margin-top:22px;
+    color:var(--muted);
+    font-size:13px
+  }
+</style>
 </head>
 
 <body>
